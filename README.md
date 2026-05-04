@@ -8,7 +8,7 @@ Demonstration Video:
 ## Features
 
 * **Custom Graphics Driver:** Low-level ST7735 LCD driver implemented via SPI.
-* **Interrupt-Driven Game Engine:** Uses Timer Interrupts to manage concurrent tasks including physics updates, sound generation, and display refreshes [cite: 62, 64].
+* **Interrupt-Driven Game Engine:** Uses Timer Interrupts to manage concurrent tasks including physics updates, sound generation, and display refreshes.
 * **Hardware Audio Synthesis:** Engineered a 5-bit R-2R DAC for real-time audio synthesis.
 * **Analog Control:** Integrated ADC sampling to allow analog movement via joystick.
 
