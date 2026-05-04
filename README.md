@@ -2,25 +2,21 @@
 
 A custom-built, interrupt-driven handheld 2D platformer developed for the ARM Cortex-M0+ (MSPM0) microcontroller. This project features a custom graphics driver, hardware-level audio synthesis, and optimized physics engines.
 
-<iframe width="315" height="560" src="https://youtube.com/embed/A1qhqIM10Pw?si=ZmeFPjMsQ7WiNC7e" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
 
 ## Features
 
 * **Custom Graphics Driver:** Low-level ST7735 LCD driver implemented via SPI.
 * **Interrupt-Driven Game Engine:** Uses Timer Interrupts to manage concurrent tasks including physics updates, sound generation, and display refreshes [cite: 62, 64].
 * **Hardware Audio Synthesis:** Engineered a 5-bit R-2R DAC for real-time audio synthesis.
-* **Analog Control:** Integrated ADC sampling to allow analog movement via joystick
-<!--
-* **High-Performance Physics:** Implemented using Fixed-Point mathematics to achieve high frame rates on hardware without a Floating Point Unit (FPU) [cite: 65].
--->
-* **Custom Hardware:** PCB designed in KiCad, featuring hand-soldered buttons and resistors [cite: 66].
+* **Analog Control:** Integrated ADC sampling to allow analog movement via joystick.
+
+* **Custom Hardware:** PCB designed in KiCad, featuring hand-soldered buttons and resistors (not shown in video, switched from slide pot to joystick).
 
 ## Tech Stack
 
 * **Languages:** C, ARM Assembly 
 * **Hardware:** ARM Cortex-M0+ (MSPM0), ST7735 LCD 
-* **Peripherals/Protocols:** SPI, UART, ADC/DAC [cite: 60]
+* **Peripherals/Protocols:** SPI, UART, ADC/DAC
 * **Tools:** KiCad (PCB Design) 
 
 
