@@ -2,6 +2,8 @@
 
 A custom-built, interrupt-driven handheld 2D platformer developed for the ARM Cortex-M0+ (MSPM0) microcontroller. This project features a custom graphics driver, hardware-level audio synthesis, and optimized physics engines.
 
+Demonstration Video:
+[![Demonstration](https://img.youtube.com/vi/A1qhqIM10Pw/0.jpg)](https://www.youtube.com/watch?v=A1qhqIM10Pw)
 
 ## Features
 
@@ -20,4 +22,4 @@ A custom-built, interrupt-driven handheld 2D platformer developed for the ARM Co
 * **Tools:** KiCad (PCB Design) 
 
 
-*Developed by Onik Hoque*
+*Developed by Onik Hoque, Sushruth Kaniyar*
